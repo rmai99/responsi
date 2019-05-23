@@ -1,0 +1,168 @@
+* {
+  padding: 0;
+  margin: 0;
+  
+}
+
+body {
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: sans-serif;
+}
+
+a,
+a:visited {
+  outline: none;
+}
+
+a:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.header {
+  text-align: center;
+}
+
+.nav {
+  width: auto;
+  margin: 20px auto;
+  max-width: 48em;
+  border: 1px solid #333;
+  border-left: none;
+  border-right: none;
+  text-align: center;
+}
+
+.menu {
+  display: inline-block;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+  transition: background .15s ease-in;
+}
+
+.menu:hover {
+  background: rgb(116, 102, 102);
+}
+
+.merah.is-active {
+  background: red;
+}
+.kuning.is-active{
+  background: yellow;
+}
+.biru.is-active{
+  background: aqua;
+}
+.hjau.is-active {
+  background: green;
+}
+.profile.is-active {
+  background: rgb(44, 221, 221)
+}
+.info {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.selected {
+  margin-left: 5px;
+  padding: 5px 10px;
+  vertical-align: middle;
+  border-radius: 4px;
+  background: rgb(121, 114, 114);
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+.merah.selected {
+  background: red;
+}
+.kuning.selected{
+  background: yellow;
+}
+.biru.selected{
+  background: aqua;
+}
+.hjau.selected {
+  background: green;
+}
+.profile.selected {
+  background: rgb(61, 214, 214)
+}
+.kuning.image{
+  background-image: url('https://img.rankedboost.com/wp-content/plugins/super-smash-bros-ultimate/assets/character-images-main/Pikachu_SSBU.png');
+}
+.image {
+  width: 200px;
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+  margin: auto;
+  margin-top: 20px;
+}
+.title {
+  color: white;
+}
+h1, h2, p, ul, li {
+  font-family: sans-serif;
+}
+ul.header li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+}
+ul.header {
+  width: 1000px;
+  margin: 20px auto;
+  background-color: #bfffce;
+  padding: 0;
+}
+ul.header li a {
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+}
+.content {
+  
+  background-color: #FFF;
+  padding: 20px;
+}
+.content h2 {
+  padding: 0;
+  margin: 0;
+}
+.content li {
+  margin-bottom: 10px;
+}
+
+.boxWhite {
+  height: 700px;
+  background: white;
+}
+.bgCircle {
+  border-radius: 50%;
+  width: 230px;
+  height: 230px;
+  background-color: #bfffce;
+  color: black;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin: 10px;
+  float: left;
+  font-size: 13px;
+
+}
+
+.circle {
+  border-radius: 50%;
+}
+.ctr {
+  text-align: center;
+}
